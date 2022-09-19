@@ -1,6 +1,6 @@
 # restrictive-git-proxy
 
-A Git SSH proxy that allows each clients to access a different of repositories
+A Git SSH proxy that allows each clients access to a different set of repositories
 
 
 ## Motivation
@@ -13,7 +13,7 @@ To contain the effects of malicious code in one of my projects (or my project's 
 * virtual machines
 * separate physical computers
 
-This works well to prevent one malicious project (dependency) from touching other data on my computers.
+This works well to prevent one malicious project ('s dependency) from touching other data on my computers.
 
 Each of these project environments has its own SSH key, which can push only to the project's forge.
 
